@@ -16,7 +16,6 @@ colorama==0.4.6
 contourpy==1.2.0
 cycler==0.12.1
 distro==1.9.0
-Django==5.0.3
 django-cors-headers==4.3.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
