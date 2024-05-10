@@ -17,7 +17,7 @@ st.set_page_config(page_title="大桃分析", layout="wide")
 st.markdown("<style>.big-font {font-size:20px !important;}</style>", unsafe_allow_html=True)
 
 # 在侧边栏添加选择功能的选项
-print(torch.version)
+
 st.sidebar.markdown("# 大桃 🍑 分析 ")
 # st.sidebar.markdown("""
 #     <style>
@@ -96,6 +96,8 @@ elif option == '👁️品种识别':
             with st.spinner("AI正在疯狂思考... 🤯🤯🤯"):
                 # 调用YOLOv5的detect.py脚本进行推断
                 print("当前工作目录:", os.getcwd())
+                print(torch.version)
+                print(torch.__version__)
                 subprocess.run([
                     "python", "detect.py",
                     "--weights", "best.pt",
