@@ -96,7 +96,7 @@ elif option == '👁️品种识别':
             with st.spinner("AI正在疯狂思考... 🤯🤯🤯"):
                 # 调用YOLOv5的detect.py脚本进行推断
                 print("当前工作目录:", os.getcwd())
-
+                import sys
                 subprocess.run([
                     sys.executable, "FrontEnd/detect.py",
                     "--weights", "best.pt",
