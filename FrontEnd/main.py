@@ -97,7 +97,7 @@ elif option == '👁️品种识别':
                 # 调用YOLOv5的detect.py脚本进行推断
                 print("当前工作目录:", os.getcwd())
                 subprocess.run([
-                    "python", "./detect.py",
+                    "python", "detect.py",
                     "--weights", "best.pt",
                     "--source", image_path,
                     "--project", "temp_results",
