@@ -5,7 +5,7 @@ import os
 from PIL import Image
 import subprocess
 import uuid
-
+import torch
 import numpy as np
 import torch
 from torchvision import transforms
