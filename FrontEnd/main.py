@@ -17,7 +17,7 @@ st.set_page_config(page_title="大桃分析", layout="wide")
 st.markdown("<style>.big-font {font-size:20px !important;}</style>", unsafe_allow_html=True)
 
 # 在侧边栏添加选择功能的选项
-
+print(torch.version)
 st.sidebar.markdown("# 大桃 🍑 分析 ")
 # st.sidebar.markdown("""
 #     <style>
