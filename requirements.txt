@@ -8,8 +8,8 @@ numpy>=1.23.5
 
 opencv-python-headless
 torch==2.0.0
-torchvision==0.9.1
-torchaudio==0.8.1
+torchvision
+torchaudio
 
 
 Pillow>=9.4.0
