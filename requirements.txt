@@ -7,7 +7,7 @@ matplotlib>=3.3
 numpy>=1.23.5
 
 opencv-python-headless
-torch==1.8.1
+torch==2.0.0
 torchvision==0.9.1
 torchaudio==0.8.1
 
