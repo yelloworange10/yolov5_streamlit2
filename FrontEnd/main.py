@@ -98,7 +98,7 @@ elif option == '👁️品种识别':
                 print("当前工作目录:", os.getcwd())
                 import sys
                 subprocess.run([
-                    sys.executable, "FrontEnd/detect.py",
+                    sys.executable, "detect.py",
                     "--weights", "best.pt",
                     "--source", image_path,
                     "--project", "temp_results",
