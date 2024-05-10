@@ -31,6 +31,9 @@ Usage - formats:
 import argparse
 import csv
 import os
+
+print(os.getcwd())
+
 import platform
 import sys
 from pathlib import Path
