@@ -5,7 +5,7 @@ import os
 from PIL import Image
 import subprocess
 import uuid
-import cv2
+
 import numpy as np
 import torch
 from torchvision import transforms
